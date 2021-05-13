@@ -12,6 +12,54 @@
       .h4 1.1  Concepto
     p.mb-5 A continuación, se puede revisar el concepto de mejora continua desde la óptica de varios autores.
 
+      //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+    TabsA.color-acento-botones.mb-5
+     
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Berwick (1990)")
+        h4 Berwick (1990)
+        //- .Tab 1
+        .row
+          .col-xl-6.mb-4
+            figure
+              img(src='@/assets/template/t1-i1.svg', alt='imagen de tablero representando Berwick (1990)')
+              figcaption Leyenda de la imagen
+          .col-xl-6
+            p Afirma que el mejoramiento continuo es un método gerencial que busca desarrollar la organización en una nueva manera para que, de una forma ordenada y planeada, todo el mundo desempeñe un papel activo en el entendimiento de los problemas y los procesos que los soportan, recopilando y analizando datos de estos procesos, generando y probando hipótesis acerca de las causas de los errores, y diseñando, implementando y probando soluciones.
+      
+      //- .Tab 2
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Lohr (1990)")
+        h4 Lohr (1990)
+        .row
+          .col-xl-6.mb-4
+            figure
+              img(src='@/assets/template/t1-i2.svg', alt='imagen de tablero representando Berwick (1990)')
+              figcaption Leyenda de la imagen
+          .col-xl-6
+            p Propone que el mejoramiento continuo es una serie de técnicas que continuamente estudian y mejoran los procesos en la provisión del cuidado médico para cumplir con las expectativas del cliente. Cuenta, entonces, con tres elementos básicos: conocimiento del cliente, enfoque centrado en procesos de atención y enfoques estadísticos para reducir las variaciones de estos procesos.
+      //- .Tab 3
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Harrigan (2000)")
+        h4 Harrigan (2000)
+        .row
+          .col-xl-6.mb-4
+            figure
+              img(src='@/assets/template/t1-i3.svg', alt='imagen de tablero representando Harrigan (2000)')
+              figcaption Leyenda de la imagen
+          .col-xl-6
+            p Sostiene que el mejoramiento continuo de la calidad es una filosofía gerencial y un sistema que involucra a la gerencia, los profesionales y el staff en el mejoramiento continuo de los procesos de trabajo para obtener mejores resultados para los clientes; la meta es alcanzar o exceder las necesidades de los pacientes, sus familias, el staff, los profesionales en salud y la comunidad.
+      //- .Tab 4
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Deming (1998) ")
+        h4 Deming (1998)
+        .row
+          .col-xl-6.mb-4
+            figure
+              img(src='@/assets/template/t1-i4.svg', alt='imagen de tablero representando Deming (1998)')
+              figcaption Leyenda de la imagen
+          .col-xl-6
+            p Impulsor tras la guerra de las técnicas de calidad en Japón y adelantado a su tiempo, afirma que el compromiso de mejora constante y la idea de sustituir la inspección (o control) por la participación de todos, rompiendo barreras y fomentando estilos de liderazgo participativos, son la clave del éxito. Su mayor aportación es el programa de los catorce puntos para la mejora de la gestión de la calidad.
+      
+     
+      
+
 
     .titulo-segundo
       .h4 1.2. Integralidad de fuentes de mejora
