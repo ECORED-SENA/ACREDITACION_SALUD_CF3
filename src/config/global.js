@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+      'Gestión de la mejora',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
+      'Después de realizar la autoevaluación en la cual identificó la situación real de la institución, comparando los resultados obtenidos con los estándares de calidad en los datos cualitativos, calificando los datos cuantitativos, además midiendo los indicadores para interpretarlos según el manual correspondiente, debe hacer, el análisis de resultados reconociendo las oportunidades de mejora. Los cambios necesarios se plasman en el documento “plan de mejora”.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
