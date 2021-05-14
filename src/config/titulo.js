@@ -1,2 +1,1 @@
-module.exports =
-  'Gestión de la mejora'
+module.exports = 'Gestión de la mejora'

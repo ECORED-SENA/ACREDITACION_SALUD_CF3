@@ -7,12 +7,9 @@
         .h3 1
       .h3 Gestión de la mejora
     p.mb-5 Actualmente, la tendencia tanto en el sector privado como en el público, es la adopción de modelos de gestión que sirvan de referente y guía en los procesos permanentes de mejora de los productos y servicios que ofrecen. Con respecto a ello, “La eficiencia organizacional involucra crear conciencia respecto de la necesidad de implementar mejoras, integrar la mejora de calidad a todas y cada una de las actividades, proporcionar capacitación en relación con los métodos de calidad, establecer resolución de problemas de equipo y reconocer los resultados” (Summers, 2006, p.27).
-
-    .titulo-segundo
+    #t_1_1.titulo-segundo
       .h4 1.1  Concepto
     p.mb-5 A continuación, se puede revisar el concepto de mejora continua desde la óptica de varios autores.
-
-      //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
     TabsA.color-acento-botones.mb-5
      
       .tarjeta.color-acento-botones--borde.p-4(titulo="Berwick (1990)")
@@ -47,7 +44,7 @@
           .col-xl-6
             p Sostiene que el mejoramiento continuo de la calidad es una filosofía gerencial y un sistema que involucra a la gerencia, los profesionales y el staff en el mejoramiento continuo de los procesos de trabajo para obtener mejores resultados para los clientes; la meta es alcanzar o exceder las necesidades de los pacientes, sus familias, el staff, los profesionales en salud y la comunidad.
       //- .Tab 4
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Deming (1998) ")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Deming (1998)")
         h4 Deming (1998)
         .row
           .col-xl-6.mb-4
@@ -56,31 +53,21 @@
               figcaption Leyenda de la imagen
           .col-xl-6
             p Impulsor tras la guerra de las técnicas de calidad en Japón y adelantado a su tiempo, afirma que el compromiso de mejora constante y la idea de sustituir la inspección (o control) por la participación de todos, rompiendo barreras y fomentando estilos de liderazgo participativos, son la clave del éxito. Su mayor aportación es el programa de los catorce puntos para la mejora de la gestión de la calidad.
-      
-     
-      
-
-
-    .titulo-segundo
+    #t_1_2.titulo-segundo
       .h4 1.2. Integralidad de fuentes de mejora
-    
-    .titulo-segundo
+    #t_1_3.titulo-segundo
       .h4 1.3 Ventajas del plan de mejoramiento
     p.mb-5 Considerando que el plan de mejora es una herramienta que plasma los cambios que se requieren realizar en la institución, a través de las decisiones estratégicas permitiendo el seguimiento y control de las acciones propuestas, es importante identificar los objetivos que se pretenden alcanzar y las tareas que se deben realizar. Y con ello precisar que el plan de mejora permite, entre otras ventajas:
-    
-    .titulo-segundo
+    #t_1_4.titulo-segundo
       .h4 1.4 Fortalezas y oportunidades de mejora
     p.mb-5 Una vez seleccionado un proceso que necesite mejoramiento, es importante lograr una comprensión unificada de cómo funciona el proceso que está en marcha. Para ello, se podría reflexionar en torno a los siguientes interrogantes:
-
-    .titulo-segundo
+    #t_1_5.titulo-segundo
       .h4 1.5 Registro de las oportunidades de mejora
     p.mb-5 Para llevar a cabo este registro se trabaja el formato experto, que sirve para elaborar el formato del Plan de Mejora con la matriz 5W y 1H y se encuentra en el anexo_formato experto_Plan de mejoramiento integrado.
-
-    .titulo-segundo
+    #t_1_6.titulo-segundo
       .h4 1.6 Implementación de acciones de mejora
     p.mb-5 Una vez que se ha planeado, determinado y estructurado el plan de mejora, se desarrollan las actividades propuestas completando tareas y tiempos; de esta manera, los indicadores de seguimiento van evaluando el proceso realizado.
-
-    .titulo-segundo
+    #t_1_6.titulo-segundo
       .h4 1.7 Herramientas para el mejoramiento continuo
     p.mb-5 Para trabajar en el mejoramiento continuo se consideran algunas herramientas que facilitan esta tarea, para lo cual se recomienda seguir el siguiente procedimiento:
     .row
