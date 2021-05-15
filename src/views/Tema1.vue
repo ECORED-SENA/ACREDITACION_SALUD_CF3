@@ -14,57 +14,56 @@
      
       .tarjeta.p-4(titulo="Berwick (1990)")
         //- .Tab 1
-        .row
+        .row.align-items-center
           .col-xl-6.mb-4
             figure
               img(src='@/assets/curso/t1-i1.svg', alt='imagen de tablero representando Berwick (1990)')
               
           .col-xl-6
-            p Afirma que el mejoramiento continuo es un método gerencial que busca desarrollar la organización en una nueva manera para que, de una forma ordenada y planeada, todo el mundo desempeñe un papel activo en el entendimiento de los problemas y los procesos que los soportan, recopilando y analizando datos de estos procesos, generando y probando hipótesis acerca de las causas de los errores, y diseñando, implementando y probando soluciones.
+            p.m-5 Afirma que el mejoramiento continuo es un método gerencial que busca desarrollar la organización en una nueva manera para que, de una forma ordenada y planeada, todo el mundo desempeñe un papel activo en el entendimiento de los problemas y los procesos que los soportan, recopilando y analizando datos de estos procesos, generando y probando hipótesis acerca de las causas de los errores, y diseñando, implementando y probando soluciones.
       
       //- .Tab 2
       .tarjeta.p-4(titulo="Lohr (1990)")
-        .row
+        .row.align-items-center
           .col-xl-6.mb-4
             figure
               img(src='@/assets/curso/t1-i2.svg', alt='imagen de tablero representando Berwick (1990)')
               
           .col-xl-6
-            p Propone que el mejoramiento continuo es una serie de técnicas que continuamente estudian y mejoran los procesos en la provisión del cuidado médico para cumplir con las expectativas del cliente. Cuenta, entonces, con tres elementos básicos: conocimiento del cliente, enfoque centrado en procesos de atención y enfoques estadísticos para reducir las variaciones de estos procesos.
+            p.m-5 Propone que el mejoramiento continuo es una serie de técnicas que continuamente estudian y mejoran los procesos en la provisión del cuidado médico para cumplir con las expectativas del cliente. Cuenta, entonces, con tres elementos básicos: conocimiento del cliente, enfoque centrado en procesos de atención y enfoques estadísticos para reducir las variaciones de estos procesos.
       //- .Tab 3
       .tarjeta.p-4(titulo="Harrigan (2000)")
-        .row
+        .row.align-items-center
           .col-xl-6.mb-4
             figure
               img(src='@/assets/curso/t1-i3.svg', alt='imagen de tablero representando Harrigan (2000)')
               
           .col-xl-6
-            p Sostiene que el mejoramiento continuo de la calidad es una filosofía gerencial y un sistema que involucra a la gerencia, los profesionales y el staff en el mejoramiento continuo de los procesos de trabajo para obtener mejores resultados para los clientes; la meta es alcanzar o exceder las necesidades de los pacientes, sus familias, el staff, los profesionales en salud y la comunidad.
+            p.m-5 Sostiene que el mejoramiento continuo de la calidad es una filosofía gerencial y un sistema que involucra a la gerencia, los profesionales y el staff en el mejoramiento continuo de los procesos de trabajo para obtener mejores resultados para los clientes; la meta es alcanzar o exceder las necesidades de los pacientes, sus familias, el staff, los profesionales en salud y la comunidad.
       //- .Tab 4
       .tarjeta.p-4(titulo="Deming (1998)")
-        .row
+        .row.align-items-center
           .col-xl-6.mb-4
             figure
               img(src='@/assets/curso/t1-i4.svg', alt='imagen de tablero representando Deming (1998)')
-              
           .col-xl-6
-            p Impulsor tras la guerra de las técnicas de calidad en Japón y adelantado a su tiempo, afirma que el compromiso de mejora constante y la idea de sustituir la inspección (o control) por la participación de todos, rompiendo barreras y fomentando estilos de liderazgo participativos, son la clave del éxito. Su mayor aportación es el programa de los catorce puntos para la mejora de la gestión de la calidad.
+            p.m-5 Impulsor tras la guerra de las técnicas de calidad en Japón y adelantado a su tiempo, afirma que el compromiso de mejora constante y la idea de sustituir la inspección (o control) por la participación de todos, rompiendo barreras y fomentando estilos de liderazgo participativos, son la clave del éxito. Su mayor aportación es el programa de los catorce puntos para la mejora de la gestión de la calidad.
     p.mb-3 De acuerdo con los conceptos vistos, la gestión de mejora:
     ul.lista-ul--color
       li 
-        i.lista-ul__vineta
+        i.fas.fa-check
         | Debe involucrar a todas las personas en la institución.
       li
-        i.lista-ul__vineta
+        i.fas.fa-check
         | Implica una filosofía de vida laboral, personal y social, centrada en esfuerzos de mejoramiento constante.
       li 
-        i.lista-ul__vineta
+        i.fas.fa-check
         | Realiza esfuerzos para trabajar en las personas, en su estado de ánimo, en la comunicación, en el trabajo en equipo, el compromiso y la disciplina.
       li 
-        i.lista-ul__vineta
+        i.fas.fa-check
         | Procura convertir en cultura organizacional el mejoramiento de los procesos.
       li 
-        i.lista-ul__vineta
+        i.fas.fa-check
         | Es un enfoque de sentido común que fomenta el pensamiento orientado a procesos, ya que estos deben perfeccionarse para que mejoren los resultados.
     br
     p.mb-3 Y en ese sentido, el mejoramiento continuo implica: 
@@ -135,47 +134,47 @@
         .h6 Planear
         ul.lista-ul--color
           li 
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Qué: identificar las metas.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Cómo: identificar los medios.
         .h6 Hacer
         ul.lista-ul--color
           li 
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Fase de ejecución de los medios establecidos en la fase inicial.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Se orienta a la formación de las personas en la manera que se defina para cumplir la meta.
         .h6 Verificar
         ul.lista-ul--color
           li 
-            i.lista-ul__vineta
+            i.fas.fa-check
             | La evaluación del comportamiento de los indicadores que se han construido.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | La aplicación de los métodos de evaluación de la calidad, incluidos aquellos que forman parte de la auditoría para el mejoramiento de la calidad.
         .h6 Actuar
         ul.lista-ul--color
           li 
-            i.lista-ul__vineta
+            i.fas.fa-check
             | En el caso que la meta haya sido conseguida, es necesario estandarizar la ejecución con el ánimo de mantener los resultados del proceso.
     p.mb-5 Con respecto a este ciclo, se hace necesario corregir y ajustar el proceso, y repetirlo hasta que la meta sea alcanzada.
     .tarjeta.tarjeta--azul.p-4.mb-5
       p.mb-2 Ahora bien, también es necesario considerar algunas barreras que pueden afectar el logro del mejoramiento. El hecho de NO lograr los resultados indica que hay una falla en el proceso, por lo que es responsabilidad de la gerencia identificar y corregir los errores debidos al proceso, como:
       ul.lista-ul--color
         li 
-          i.lista-ul__vineta
+          i.fas.fa-check
           | Carencia de recursos.
         li
-          i.lista-ul__vineta
+          i.fas.fa-check
           | No experticia en el proyecto designado y en las herramientas de análisis.
         li
-          i.lista-ul__vineta
+          i.fas.fa-check
           | Pobre relación entre los grupos de profesionales.
         li
-          i.lista-ul__vineta
+          i.fas.fa-check
           | Problemas organizacionales, entre los clínicos y los administrativos.
         
         
@@ -183,101 +182,101 @@
     
     #t_1_2.titulo-segundo
       .h4 1.2. Integralidad de fuentes de mejora
-    .row
-      .col-lg-10.align-items-center.justify-content-center
+    .row.justify-content-center
+      .col-lg-10
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/t1-i6.svg', alt='mejoramiento continuo de la calidad es el ciclo PHVA')
+                img.w160(src='@/assets/curso/t1-i6.svg', alt='mejoramiento continuo de la calidad es el ciclo PHVA')
             .col-lg-8
               .bloque-texto-a__texto.p-4
                 p Esta integralidad consiste en considerar todas las posibles fuentes de problemas de calidad en un solo formato para realizar el seguimiento y ser más eficientes. Los planes de mejoramiento deben incluir acciones preventivas, de seguimiento y coyunturales. Además, en la medida que se desarrollen planes preventivos, se minimiza el riesgo del usuario y, en especial, en la seguridad del paciente.
     .h6 Incorporar todas las oportunidades de mejora de las diferentes fuentes de mejoramiento
     p.mb-5  En el plan de mejora se pueden incluir las diferentes fuentes de problemas para que sea integral:
-    .row
+    .row.mb-4
       .col-lg-4
-        figure
+        figure.mb-5
           img(src='@/assets/curso/t1-i7.svg', alt='Ilustración plan de mejora')
       .col-lg-8
         ul.lista-ul--color
           li 
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Acreditación o sistemas de gestión de calidad.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Indicadores trazadores de calidad.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Oficinas de quejas y reclamos.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Informes de aseguradores.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Informes de entes de control.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Satisfacción del cliente.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Indicadores históricos de gestión.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Las mejores prácticas (bench marking).
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | La voz del cliente.
       .h6 Selección de procesos por mejorar
-      p.mb-5  En la selección de procesos a mejorar, es necesario tener en cuenta:
-      ul.lista-ul--color
-          li 
-            i.lista-ul__vineta
-            | Presentación del informe de autoevaluación.
-          li
-            i.lista-ul__vineta
-            | Presentación de los procesos de la institución (mapa de procesos).
-          li
-            i.lista-ul__vineta
-            | Clasificación de oportunidades de mejora en procesos.
-          li
-            i.lista-ul__vineta
-            | Listado de consolidación de procesos por mejorar.
-      p.mb-5 Además, deben estar incluidos dos procesos:
-       ul.lista-ul--color
-          li 
-            i.lista-ul__vineta
-            | Atención centrada en el usuario: asistencial.
-          li
-            i.lista-ul__vineta
-            | Satisfacción del usuario.
+      p.mb-4  En la selección de procesos a mejorar, es necesario tener en cuenta:
+      ul.lista-ul--color.mb-4
+        li 
+          i.fas.fa-check
+          | Presentación del informe de autoevaluación.
+        li
+          i.fas.fa-check
+          | Presentación de los procesos de la institución (mapa de procesos).
+        li
+          i.fas.fa-check
+          | Clasificación de oportunidades de mejora en procesos.
+        li
+          i.fas.fa-check
+          | Listado de consolidación de procesos por mejorar.
+      br
+      p.mb-4 Además, deben estar incluidos dos procesos:
+      ul.lista-ul--color.mb-4
+        li 
+          i.fas.fa-check
+          | Atención centrada en el usuario: asistencial.
+        li
+          i.fas.fa-check
+          | Satisfacción del usuario.
     .h6 Priorización de procesos por mejorar 
-    p.mb-5  Aquí se deben revisar los pasos que priorizan los procesos a mejorar:
-    .row
+    p.mb-4  Aquí se deben revisar los pasos que priorizan los procesos a mejorar:
+    .row.mb-5
       .col-lg-4
         figure
           img(src='@/assets/curso/t1-i8.svg', alt='Ilustración priorización de procesos')
       .col-lg-8
         ul.lista-ul--color
           li 
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Seleccionar en el equipo un moderador.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | La forma de realizar la pregunta debe reflejar cuál es la incidencia o impacto que el proceso tiene en el factor crítico de éxito.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Utilizar una escala de calificación que permita una ponderación. 
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Cada uno de los miembros del equipo realiza su calificación.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Consolidar los valores, para esto se multiplican los valores en forma horizontal.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Ordenar los resultados de mayor a menor, la cantidad de procesos depende de capacidad institucional.
-    br
     .h6 Evaluar el mejoramiento es el mejor mecanismo para sostener el mejoramiento
     p.mb-5 Para llevar a cabo esta evaluación, se debe:
     .row
@@ -287,22 +286,22 @@
       .col-lg-10
         ul.lista-ul--color
           li 
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Realizar seguimiento a los planes de mejoramiento formulados.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Realizar seguimiento a los resultados de los indicadores propuestos.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Realizar seguimiento a la cantidad de eventos adversos. 
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Evaluar la calidad del programa de auditoría.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Definir la estrategia para comunicar los resultados a los clientes internos.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Definir la estrategia para comunicar a los usuarios y sus familias y a otros clientes.
     br
 
@@ -323,47 +322,37 @@
         br
         ul.lista-ul--color.text-bold
           li 
-            i.lista-ul__vineta
+            i.fas.fa-check
             | ¿Cuáles fueron los éxitos?
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | ¿Cuáles fueron las dificultades?
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | ¿Qué no funcionó?
     br
     p.mb-5 Por otra parte, es necesario definir la estrategia para comunicar los resultados a los clientes internos, así como la definir la estrategia para comunicar a los usuarios, sus familias y a otros clientes.
-    .cajon.color-primario.p-2.mb-4
-      .row
-        .col-lg-2
-          figure
-            img(src='@/assets/curso/t1-i11.svg', alt='importante: definir la estrategia')
-        .col-lg-8
-          ul.lista-ul--color.text-bold
-            li 
-              i.lista-ul__vineta
-              | ¿Quiénes son los proveedores y cuáles son las entradas?
-            li
-              i.lista-ul__vineta
-              | ¿Qué se hace ahora? 
-            li
-              i.lista-ul__vineta
-              | ¿Cuáles son sus actividades?
-            li
-              i.lista-ul__vineta
-              | ¿En qué orden? 
-            li
-              i.lista-ul__vineta
-              | ¿Qué pasa cuando las cosas no marchan bien?
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .cajon.color-primario.p-2.mb-4
+          .row
+            .col.col-lg-2
+              figure
+                img(src='@/assets/curso/t1-i11.svg', alt='importante: definir la estrategia')
+            .col.col-lg-10
+              br
+              p.mb-3 
+                span.text-bold Para recordar: 
+                | el plan de mejora elaborado permite tener la información organizada, priorizada y planificada, así como las acciones de mejora, ya que su formulación responde a la detección de las causas de los principales problemas identificados.
     p.mb-5 
-      | Además,
-      span.text-bold cerrar brechas
+      | Además, 
+      span.text-bold cerrar brechas 
       | es la presencia de un problema que se debe analizar para encontrar las causas de su ocurrencia. Identificadas las causas que generan los fallos se formulan los planes de mejoramiento que pueden ser evaluados por los profesionales clínicos; y los planes se relacionan con la actividad asistencial y permiten detectar problemas que pueden ser remediables sobre la marcha.
     p.mb-5
       | Ahora, se debe revisar en qué consiste el 
       span.text-bold ciclo de mejora, 
       | para ello se contemplan las siguientes fases: 
-    .row
+    .row.justify-content-center
       .col-lg-8
         PasosA.color-primario.mb-5(tipo="n" :datos="datosPasosA")
     figcaption.mb-5 Figura 2: Ciclo de mejora
@@ -376,11 +365,24 @@
         figure
           img(src='@/assets/curso/t1-i10.svg', alt='Aspecto a considerar')
       .col-lg-8
-        br
-        br
-        p.mb-5 
-          span.text-bold Para recordar:
-          | el plan de mejora elaborado permite tener la información organizada, priorizada y planificada, así como las acciones de mejora, ya que su formulación responde a la detección de las causas de los principales problemas identificados.
+        ul.lista-ul--color.text-bold
+          li 
+            i.fas.fa-check
+            | ¿Quiénes son los proveedores y cuáles son las entradas?
+          li
+            i.fas.fa-check
+            | ¿Qué se hace ahora? 
+          li
+            i.fas.fa-check
+            | ¿Cuáles son sus actividades?
+          li
+            i.fas.fa-check
+            | ¿En qué orden?
+          li
+            i.fas.fa-check
+            | ¿Qué pasa cuando las cosas no marchan bien?
+    br
+    br
     figure
       img(src='@/assets/curso/t1-i15.svg', alt='Comprensión del proceso en marcha')
     figcaption.mb-5 Figura 3: Comprensión del proceso en marcha
@@ -405,19 +407,19 @@
       .col-lg-10
         ul.lista-ul--color
           li 
-            i.lista-ul__vineta
+            i.fas.fa-check
             |  Durante la ejecución verificar físicamente en el lugar donde se están efectuando las acciones.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Todas las acciones y los resultados, buenos o malos, deben ser registrados con la fecha en que fueron tomados.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Se deben utilizar los datos recopilados antes y después del bloqueo para verificar la efectividad de la acción y el grado de reducción de los resultados no deseados.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Los formatos utilizados en la comparación deben ser los mismos antes y después de la acción.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Convertir y comparar los efectos, también en términos monetarios. 
     br
     p.mb-5 Para priorizar las actividades, se recomienda:
@@ -428,19 +430,19 @@
       .col-lg-10
         ul.lista-ul--color
           li 
-            i.lista-ul__vineta
+            i.fas.fa-check
             |  Garantizar una atención sanitaria segura y de calidad acorde con la evidencia científica disponible.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Aportar a los profesionales una metodología útil en la búsqueda de las soluciones más adecuadas a los problemas de salud de la población.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Conseguir la satisfacción del paciente o el usuario con el servicio recibido.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Las deficiencias que provocan la insatisfacción de los clientes constituyen un elemento distorsionador importante en la prestación de servicio.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Realizar las actividades del modo más eficiente posible con el fin de obtener resultados adecuados evitando costos superfluos.
     br
 
@@ -454,28 +456,28 @@
       .col-lg-8
         ul.lista-ul--color
           li 
-            i.lista-ul__vineta
+            i.fas.fa-check
             |  Resumir la formulación del problema en el rectángulo ubicado en la punta de la llamada espina dorsal.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Asegurarse de que todas las personas en el grupo estén de acuerdo con el problema formulado; generalmente el problema se asocia con un incumplimiento de una característica de calidad.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Determinar los encabezamientos de las categorías que se quieren utilizar para buscar las posibles causas (tres a seis categorías: mano de obra, maquinaria, materiales, medio, money, método). 
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Realizar una lluvia de ideas de las causas del problema.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Determinar cuáles elementos de cada categoría están contribuyendo al efecto (problema) preguntando por qué; esta son las causas subsidiarias y escribirlas sobre las líneas que se ramifican de las líneas o categorías.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Continuar en busca de causas preguntando por qué. Recordar que el diagrama causa-efecto únicamente identifica causas posibles y solamente los datos apuntarán a sus causas.
           li
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Eliminar las causas que se considere no son receptivas al cambio, es decir aquellas sobre las cuales no se ejerce control.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-check
             | Una vez que se han reducido las causas a un número manejable, recopilar datos para probar la teoría sobre estas causas.
     br
     p.mb-5.text-bold Se recomienda expresar el resultado en una gráfica de Pareto. 
@@ -537,4 +539,6 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped></style>
+<style lang="sass" scoped>
+.w160{width: 160px}
+</style>
