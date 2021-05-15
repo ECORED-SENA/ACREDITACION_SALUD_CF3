@@ -11,7 +11,6 @@
       .h4 1.1  Concepto
     p.mb-5 A continuación, se puede revisar el concepto de mejora continua desde la óptica de varios autores.
     TabsC.color-primario.mb-5
-     
       .tarjeta.p-4(titulo="Berwick (1990)")
         //- .Tab 1
         .row.align-items-center
