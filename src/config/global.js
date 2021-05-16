@@ -172,7 +172,7 @@ export default {
         cargo: 'Diseño web y Producción Audiovisual',
       },
       {
-        nombre: 'Edward Leonardo Pico Cabra',
+        nombre: 'Luis Mendez',
         cargo: 'Desarrollo Front-End',
       },
       {
@@ -192,124 +192,73 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'Summers, D. (2006). Administración de la calidad. Pearson Educación.',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Berwick, D., Blanton, G., y Roessner, J. (1990). Curing Health Care: New Strategies for Quality Improvement. Jossey-Bass.',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Lohr, K. y Molla, D. (1990). Assuring Quality of Care for the Elderly. The Journal of Law, Medicine & Ethics, 18(3), 244-253.',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Sociedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Harrigan, J., y Zakrajsek, E. (2000). Factor Supplies and Specialization in the World Economy. National Bureau of economic Research.',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Análisis causal',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Se refiere a establecer las causas apoyándose en las 5M: Mano de obra o talento humano, Materiales o insumos medicamentos, Maquinaria o equipos, Método o guías, procesos, procedimientos y Medida, es decir indicadores',
     },
     {
-      termino: 'Suftware',
+      termino: 'Fuente de mejoramiento',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'El diligenciar la fuente de información y analizarla puede llevar a la identificación de una oportunidad de mejora.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Oportunidad de mejora',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Son todas las oportunidades de mejora que fueron identificadas de las diferentes fuentes de mejoramiento, así, una oportunidad de mejora debe ser redactada en infinitivo y puede estar presente en la estructura (documentos, directrices, políticas), en los procesos (conjunto de actividades que interactúan) o en el resultado (logros, indicadores). ',
     },
     {
-      termino: 'Vectores',
+      termino: 'Priorización',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Las oportunidades de mejora se deben priorizar según variables de costo, riesgo y volumen.',
     },
     {
-      termino: 'Moda',
+      termino: 'Proceso afectado',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Es la selección del proceso que corresponde al mapa de procesos de la organización, involucrado en la ejecución de la oportunidad de mejora.',
     },
     {
-      termino: 'Diseño',
+      termino: 'Tipo de riesgo',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Software',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Se refiere a la selección del tipo de riesgo según el mapa de riesgos.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Auditoría en salud: Ministerio de la Protección Social, Programa de Apoyo a la Reforma de Salud, Asociación Centro de Gestión Hospitalaria. (2007). Pautas de auditoría para el mejoramiento de la calidad de la atención en salud. Ministerio de la Protección Social.',
+      tipo: 'PDF',
+      descarga:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/CA/pautas-auditoria-Temamejoramiento-calidad-atencion-en-salud.pdf',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Calidad y autoevaluación en salud: Kerguelén, B., Ministerio de la Protección Social. (2008). Calidad en salud en Colombia. Ministerio de la Protección Social.',
+      tipo: 'Libro',
+      descarga:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/CA/calidad-salud-colombia.pdf',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+        'Diagrama de Pareto: Ingenio empresa. (2016). Diagrama de Pareto: qué es y cómo se hace. Ejemplo práctico paso a paso. [Video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      descarga: 'https://www.youtube.com/watch?v=vd7QVKpW27Q',
     },
   ],
 }
