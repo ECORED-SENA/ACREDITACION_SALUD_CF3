@@ -6,17 +6,19 @@
       .titulo-principal__numero
         .h3 1
       .h3 Gestión de la mejora
-    p.mb-5 Actualmente, la tendencia tanto en el sector privado como en el público, es la adopción de modelos de gestión que sirvan de referente y guía en los procesos permanentes de mejora de los productos y servicios que ofrecen. Con respecto a ello, “La eficiencia organizacional involucra crear conciencia respecto de la necesidad de implementar mejoras, integrar la mejora de calidad a todas y cada una de las actividades, proporcionar capacitación en relación con los métodos de calidad, establecer resolución de problemas de equipo y reconocer los resultados” (Summers, 2006, p.27).
+    p.mb-5 Actualmente, la tendencia tanto en el sector privado como en el público, es la adopción de modelos de gestión que sirvan de referente y guía en los procesos permanentes de mejora de los productos y servicios que ofrecen. Con respecto a ello, 
+      span.text-bold “La eficiencia organizacional involucra crear conciencia respecto de la necesidad de implementar mejoras, integrar la mejora de calidad a todas y cada una de las actividades, proporcionar capacitación en relación con los métodos de calidad, establecer resolución de problemas de equipo y reconocer los resultados”
+      | (Summers, 2006, p.27).
     #t_1_1.titulo-segundo
       .h4 1.1  Concepto
     p.mb-5 A continuación, se puede revisar el concepto de mejora continua desde la óptica de varios autores.
-    TabsC.color-primario.mb-5
+    TabsC.color-primario.mb-5.customTabs
       .tarjeta.p-4(titulo="Berwick (1990)")
         //- .Tab 1
         .row.align-items-center
           .col-xl-6.mb-4
             figure
-              img(src='@/assets/curso/t1-i1.svg', alt='imagen de tablero representando Berwick (1990)')
+              img.h350(src='@/assets/curso/t1-i1.svg', alt='imagen de tablero representando Berwick (1990)')
               
           .col-xl-6
             p.m-5 Afirma que el mejoramiento continuo es un método gerencial que busca desarrollar la organización en una nueva manera para que, de una forma ordenada y planeada, todo el mundo desempeñe un papel activo en el entendimiento de los problemas y los procesos que los soportan, recopilando y analizando datos de estos procesos, generando y probando hipótesis acerca de las causas de los errores, y diseñando, implementando y probando soluciones.
@@ -26,7 +28,7 @@
         .row.align-items-center
           .col-xl-6.mb-4
             figure
-              img(src='@/assets/curso/t1-i2.svg', alt='imagen de tablero representando Berwick (1990)')
+              img.h350(src='@/assets/curso/t1-i2.svg', alt='imagen de tablero representando Berwick (1990)')
               
           .col-xl-6
             p.m-5 Propone que el mejoramiento continuo es una serie de técnicas que continuamente estudian y mejoran los procesos en la provisión del cuidado médico para cumplir con las expectativas del cliente. Cuenta, entonces, con tres elementos básicos: conocimiento del cliente, enfoque centrado en procesos de atención y enfoques estadísticos para reducir las variaciones de estos procesos.
@@ -35,7 +37,7 @@
         .row.align-items-center
           .col-xl-6.mb-4
             figure
-              img(src='@/assets/curso/t1-i3.svg', alt='imagen de tablero representando Harrigan (2000)')
+              img.h350(src='@/assets/curso/t1-i3.svg', alt='imagen de tablero representando Harrigan (2000)')
               
           .col-xl-6
             p.m-5 Sostiene que el mejoramiento continuo de la calidad es una filosofía gerencial y un sistema que involucra a la gerencia, los profesionales y el staff en el mejoramiento continuo de los procesos de trabajo para obtener mejores resultados para los clientes; la meta es alcanzar o exceder las necesidades de los pacientes, sus familias, el staff, los profesionales en salud y la comunidad.
@@ -44,7 +46,7 @@
         .row.align-items-center
           .col-xl-6.mb-4
             figure
-              img(src='@/assets/curso/t1-i4.svg', alt='imagen de tablero representando Deming (1998)')
+              img.h350(src='@/assets/curso/t1-i4.svg', alt='imagen de tablero representando Deming (1998)')
           .col-xl-6
             p.m-5 Impulsor tras la guerra de las técnicas de calidad en Japón y adelantado a su tiempo, afirma que el compromiso de mejora constante y la idea de sustituir la inspección (o control) por la participación de todos, rompiendo barreras y fomentando estilos de liderazgo participativos, son la clave del éxito. Su mayor aportación es el programa de los catorce puntos para la mejora de la gestión de la calidad.
     p.mb-3 De acuerdo con los conceptos vistos, la gestión de mejora:
@@ -160,9 +162,9 @@
             i.fas.fa-check
             | En el caso que la meta haya sido conseguida, es necesario estandarizar la ejecución con el ánimo de mantener los resultados del proceso.
     p.mb-5 Con respecto a este ciclo, se hace necesario corregir y ajustar el proceso, y repetirlo hasta que la meta sea alcanzada.
-    .tarjeta.tarjeta--azul.p-4.mb-5
+    .tarjeta.tarjeta-LightBlue.p-4.mb-5
       p.mb-2 Ahora bien, también es necesario considerar algunas barreras que pueden afectar el logro del mejoramiento. El hecho de NO lograr los resultados indica que hay una falla en el proceso, por lo que es responsabilidad de la gerencia identificar y corregir los errores debidos al proceso, como:
-      ul.lista-ul--color
+      ul.lista-ul--color.text-bold
         li 
           i.fas.fa-check
           | Carencia de recursos.
@@ -180,10 +182,10 @@
     
     
     #t_1_2.titulo-segundo
-      .h4 1.2. Integralidad de fuentes de mejora
+      .h4 1.2 Integralidad de fuentes de mejora
     .row.justify-content-center
       .col-lg-10
-        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+        .bloque-texto-a.color-terciario.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4.mb-4.mb-lg-0
               figure
@@ -196,7 +198,7 @@
     .row.mb-4
       .col-lg-4
         figure.mb-5
-          img(src='@/assets/curso/t1-i7.svg', alt='Ilustración plan de mejora')
+          img.h290(src='@/assets/curso/t1-i7.svg', alt='Ilustración plan de mejora')
       .col-lg-8
         ul.lista-ul--color
           li 
@@ -535,4 +537,9 @@ export default {
 
 <style lang="sass" scoped>
 .w160{width: 160px}
+.h350{max-height: 350px}
+.tarjeta-LightBlue{background-color: #F3F9FF; border-radius: 0}
+.color-terciario{background-color: #F4DFFF}
+.bloque-texto-a.color-terciario>before{background-color: #F3F9FF}
+.h290{max-height: 290px}
 </style>
