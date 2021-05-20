@@ -185,7 +185,7 @@
       .h4 1.2 Integralidad de fuentes de mejora
     .row.justify-content-center
       .col-lg-10
-        .bloque-texto-a.color-terciario.p-4.p-md-5.mb-5 
+        .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4.mb-4.mb-lg-0
               figure
@@ -257,7 +257,7 @@
     .row.mb-5
       .col-lg-4
         figure
-          img(src='@/assets/curso/t1-i8.svg', alt='Ilustración priorización de procesos')
+          img.h280(src='@/assets/curso/t1-i8.svg', alt='Ilustración priorización de procesos')
       .col-lg-8
         ul.lista-ul--color
           li 
@@ -335,7 +335,7 @@
     p.mb-5 Por otra parte, es necesario definir la estrategia para comunicar los resultados a los clientes internos, así como la definir la estrategia para comunicar a los usuarios, sus familias y a otros clientes.
     .row.justify-content-center.mb-5
       .col-lg-10
-        .cajon.color-primario.p-2.mb-4
+        .cajon.color-primario.p-2.mb-4.color-lila
           .row
             .col.col-lg-2
               figure
@@ -354,8 +354,8 @@
       span.text-bold ciclo de mejora, 
       | para ello se contemplan las siguientes fases: 
     .row.justify-content-center
-      .col-lg-8
-        PasosA.color-primario.mb-5(tipo="n" :datos="datosPasosA")
+      .col-xl-10
+        PasosA.color-secundario.mb-5(tipo="n" :datos="datosPasosA")
     figcaption.mb-5 Figura 2: Ciclo de mejora
 
     #t_1_4.titulo-segundo
@@ -453,7 +453,7 @@
     .row
       .col-lg-4
         figure
-          img(src='@/assets/curso/t1-i14_1.svg', alt='Ilustración: mujer sentada explorando datos y graficos')
+          img.h450(src='@/assets/curso/t1-i14_1.svg', alt='Ilustración: mujer sentada explorando datos y graficos')
       .col-lg-8
         ul.lista-ul--color
           li 
@@ -536,10 +536,15 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.w160{width: 160px}
+.w160{width: 160px; margin: 0 auto}
 .h350{max-height: 350px}
 .tarjeta-LightBlue{background-color: #F3F9FF; border-radius: 0}
-.color-terciario{background-color: #F4DFFF}
-.bloque-texto-a.color-terciario>before{background-color: #F3F9FF}
+.color-acento-contenido{background-color: #F4DFFF}
+.color-terciario{background-color: #F3F9FF}
 .h290{max-height: 290px}
+.h450{max-height: 450px}
+.h280{max-height: 280px}
+.stepsContainer{ max-width: 80%; margin: 0px auto}
+.pasos-a .color-secundario .pasos-a__circle{background-color: #9A4CBC}
+.color-lila{background-color: #D6D2EE}
 </style>
