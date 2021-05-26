@@ -96,7 +96,7 @@
         li
           .lista-ol--cuadro__vineta
             span 7
-          | Adoptar la nueva filosofía en todos los ámbitos de trabajo. 
+          | Establecer métodos modernos de formación en todos los trabajos.  
         li 
           .lista-ol--cuadro__vineta
             span 8
@@ -390,7 +390,8 @@
 
     #t_1_5.titulo-segundo
       .h4 1.5 Registro de las oportunidades de mejora
-    p.mb-5 Para llevar a cabo este registro se trabaja el formato experto, que sirve para elaborar el formato del Plan de Mejora con la matriz 5W y 1H y se encuentra en el anexo_formato experto_Plan de mejoramiento integrado.
+    p.mb-5 Para llevar a cabo este registro se trabaja el formato experto, que sirve para elaborar el formato del Plan de Mejora con la matriz 5W y 1H y se encuentra en el 
+      a(:href="obtenerLink('/downloads/anexo_formato_experto_Plan_de_mejoramiento_integrado.xslx')" target="_blank") anexo_formato experto_Plan de mejoramiento integrado.
     figure
       img(src='@/assets/curso/t1-i16.svg', alt='Registro de oportunidades de mejora')
     figcaption.mb-5 Figura 4: Registro de oportunidades de mejora
@@ -423,7 +424,7 @@
             i.fas.fa-check
             | Convertir y comparar los efectos, también en términos monetarios. 
     br
-    p.mb-5 Para priorizar las actividades, se recomienda:
+    p.mb-5 Ahora bien, también es necesario considerar algunas barreras que pueden afectar el logro del mejoramiento. El hecho de NO lograr los resultados indica que hay una falla en el proceso, por lo que es responsabilidad de la gerencia identificar y corregir los errores debidos al proceso, como: 
     .row
       .col-lg-2
         figure
@@ -470,7 +471,7 @@
             | Realizar una lluvia de ideas de las causas del problema.
           li 
             i.fas.fa-check
-            | Determinar cuáles elementos de cada categoría están contribuyendo al efecto (problema) preguntando por qué; esta son las causas subsidiarias y escribirlas sobre las líneas que se ramifican de las líneas o categorías.
+            | Determinar cuáles elementos de cada categoría están contribuyendo al efecto (problema) preguntando por qué; estas son las causas subsidiarias y escribirlas sobre las líneas que se ramifican de las líneas o categorías.
           li
             i.fas.fa-check
             | Continuar en busca de causas preguntando por qué. Recordar que el diagrama causa-efecto únicamente identifica causas posibles y solamente los datos apuntarán a sus causas.

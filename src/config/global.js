@@ -211,7 +211,7 @@ export default {
     {
       termino: 'Análisis causal',
       significado:
-        'Se refiere a establecer las causas apoyándose en las 5M: Mano de obra o talento humano, Materiales o insumos medicamentos, Maquinaria o equipos, Método o guías, procesos, procedimientos y Medida, es decir indicadores',
+        'Se refiere a establecer las causas apoyándose en las 5M: Mano de obra o talento humano, Materiales o insumos medicamentos, Maquinaria o equipos, Método o guías, procesos, procedimientos y Medida, es decir indicadores.',
     },
     {
       termino: 'Fuente de mejoramiento',
@@ -244,21 +244,21 @@ export default {
       texto:
         'Auditoría en salud: Ministerio de la Protección Social, Programa de Apoyo a la Reforma de Salud, Asociación Centro de Gestión Hospitalaria. (2007). Pautas de auditoría para el mejoramiento de la calidad de la atención en salud. Ministerio de la Protección Social.',
       tipo: 'PDF',
-      descarga:
-        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/CA/pautas-auditoria-Temamejoramiento-calidad-atencion-en-salud.pdf',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/CA/pautas-auditoria-',
     },
     {
       texto:
         'Calidad y autoevaluación en salud: Kerguelén, B., Ministerio de la Protección Social. (2008). Calidad en salud en Colombia. Ministerio de la Protección Social.',
       tipo: 'Libro',
-      descarga:
+      link:
         'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/CA/calidad-salud-colombia.pdf',
     },
     {
       texto:
         'Diagrama de Pareto: Ingenio empresa. (2016). Diagrama de Pareto: qué es y cómo se hace. Ejemplo práctico paso a paso. [Video]. YouTube.',
       tipo: 'Video',
-      descarga: 'https://www.youtube.com/watch?v=vd7QVKpW27Q',
+      link: 'https://www.youtube.com/watch?v=vd7QVKpW27Q',
     },
   ],
 }
