@@ -229,7 +229,7 @@ export default {
         'Auditoría en salud: Ministerio de la Protección Social, Programa de Apoyo a la Reforma de Salud, Asociación Centro de Gestión Hospitalaria. (2007). Pautas de auditoría para el mejoramiento de la calidad de la atención en salud. Ministerio de la Protección Social.',
       tipo: 'PDF',
       link:
-        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/CA/pautas-auditoria-',
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/CA/pautas-auditoria-Temamejoramiento-calidad-atencion-en-salud.pdf',
     },
     {
       texto:
