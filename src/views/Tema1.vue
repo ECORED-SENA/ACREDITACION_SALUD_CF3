@@ -126,14 +126,15 @@
             span 14
           | Implantar un programa vigoroso de formación y automejora y poner a todo el mundo a trabajar en la transformación de la organización.
     br
-    p.mb-5 Una forma de representar el enfoque del mejoramiento continuo de la calidad es el ciclo PHVA.
+    p.mb-5 Una forma de representar el enfoque del mejoramiento continuo de la calidad es el ciclo 
+      span.text-bold PHVA.
     .row
       .col-lg-5
         figure
           img(src='@/assets/curso/t1-i5.svg', alt='mejoramiento continuo de la calidad es el ciclo PHVA')
       .col-lg-7
         .h6 Planear
-        ul.lista-ul--color
+        ul.lista-ul--color.mb-4
           li 
             i.fas.fa-check
             | Qué: identificar las metas.
@@ -141,7 +142,7 @@
             i.fas.fa-check
             | Cómo: identificar los medios.
         .h6 Hacer
-        ul.lista-ul--color
+        ul.lista-ul--color.mb-4
           li 
             i.fas.fa-check
             | Fase de ejecución de los medios establecidos en la fase inicial.
@@ -149,7 +150,7 @@
             i.fas.fa-check
             | Se orienta a la formación de las personas en la manera que se defina para cumplir la meta.
         .h6 Verificar
-        ul.lista-ul--color
+        ul.lista-ul--color.mb-4
           li 
             i.fas.fa-check
             | La evaluación del comportamiento de los indicadores que se han construido.
@@ -157,11 +158,11 @@
             i.fas.fa-check
             | La aplicación de los métodos de evaluación de la calidad, incluidos aquellos que forman parte de la auditoría para el mejoramiento de la calidad.
         .h6 Actuar
-        ul.lista-ul--color
+        ul.lista-ul--color.mb-4
           li 
             i.fas.fa-check
             | En el caso que la meta haya sido conseguida, es necesario estandarizar la ejecución con el ánimo de mantener los resultados del proceso.
-    p.mb-5 Con respecto a este ciclo, se hace necesario corregir y ajustar el proceso, y repetirlo hasta que la meta sea alcanzada.
+    p.mb-4 Con respecto a este ciclo, se hace necesario corregir y ajustar el proceso, y repetirlo hasta que la meta sea alcanzada.
     .tarjeta.tarjeta-LightBlue.p-4.mb-5
       p.mb-2 Ahora bien, también es necesario considerar algunas barreras que pueden afectar el logro del mejoramiento. El hecho de NO lograr los resultados indica que hay una falla en el proceso, por lo que es responsabilidad de la gerencia identificar y corregir los errores debidos al proceso, como:
       ul.lista-ul--color.text-bold
@@ -178,9 +179,9 @@
           i.fas.fa-check
           | Problemas organizacionales, entre los clínicos y los administrativos.
         
-        
-    
-    
+    br
+    br
+
     #t_1_2.titulo-segundo
       .h4 1.2 Integralidad de fuentes de mejora
     .row.justify-content-center
@@ -285,7 +286,7 @@
         figure
           img(src='@/assets/curso/t1-i9.svg', alt='Ilustración procesos a mejorar')
       .col-lg-10
-        ul.lista-ul--color
+        ul.lista-ul--color.mb-5
           li 
             i.fas.fa-check
             | Realizar seguimiento a los planes de mejoramiento formulados.
@@ -305,7 +306,7 @@
             i.fas.fa-check
             | Definir la estrategia para comunicar a los usuarios y sus familias y a otros clientes.
     br
-
+    br
     #t_1_3.titulo-segundo
       .h4 1.3 Ventajas del plan de mejoramiento
     p.mb-5 Considerando que el plan de mejora es una herramienta que plasma los cambios que se requieren realizar en la institución, a través de las decisiones estratégicas permitiendo el seguimiento y control de las acciones propuestas, es importante identificar los objetivos que se pretenden alcanzar y las tareas que se deben realizar. Y con ello precisar que el plan de mejora permite, entre otras ventajas:
@@ -357,7 +358,8 @@
       .col-xl-10
         PasosA.color-secundario.mb-5(tipo="n" :datos="datosPasosA")
     figcaption.mb-5 Figura 2: Ciclo de mejora
-
+    br
+    br
     #t_1_4.titulo-segundo
       .h4 1.4 Fortalezas y oportunidades de mejora
     p.mb-5 Una vez seleccionado un proceso que necesite mejoramiento, es importante lograr una comprensión unificada de cómo funciona el proceso que está en marcha. Para ello, se podría reflexionar en torno a los siguientes interrogantes:
@@ -387,7 +389,8 @@
     figure
       img(src='@/assets/curso/t1-i15.svg', alt='Comprensión del proceso en marcha')
     figcaption.mb-5 Figura 3: Comprensión del proceso en marcha
-
+    br
+    br
     #t_1_5.titulo-segundo
       .h4 1.5 Registro de las oportunidades de mejora
     p.mb-5 Para llevar a cabo este registro se trabaja el formato experto, que sirve para elaborar el formato del Plan de Mejora con la matriz 5W y 1H y se encuentra en el 
@@ -395,6 +398,8 @@
     figure
       img(src='@/assets/curso/t1-i16.svg', alt='Registro de oportunidades de mejora')
     figcaption.mb-5 Figura 4: Registro de oportunidades de mejora
+    br
+    br
     #t_1_6.titulo-segundo
       .h4 1.6 Implementación de acciones de mejora
     p.mb-5 Una vez que se ha planeado, determinado y estructurado el plan de mejora, se desarrollan las actividades propuestas completando tareas y tiempos; de esta manera, los indicadores de seguimiento van evaluando el proceso realizado.
@@ -447,7 +452,7 @@
             i.fas.fa-check
             | Realizar las actividades del modo más eficiente posible con el fin de obtener resultados adecuados evitando costos superfluos.
     br
-
+    br
     #t_1_7.titulo-segundo
       .h4 1.7 Herramientas para el mejoramiento continuo
     p.mb-5 Para trabajar en el mejoramiento continuo se consideran algunas herramientas que facilitan esta tarea, para lo cual se recomienda seguir el siguiente procedimiento:
@@ -548,4 +553,5 @@ export default {
 .stepsContainer{ max-width: 80%; margin: 0px auto}
 .pasos-a .color-secundario .pasos-a__circle{background-color: #9A4CBC}
 .color-lila{background-color: #D6D2EE}
+.banner-principal__row .banner-principal__img{padding-bottom: 50px !important}
 </style>

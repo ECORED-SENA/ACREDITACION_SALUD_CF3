@@ -29,5 +29,5 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.introduccion
+.banner-principal__img{margin-bottom: 50px !important}
 </style>
