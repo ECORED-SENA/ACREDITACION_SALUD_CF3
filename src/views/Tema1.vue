@@ -394,7 +394,7 @@
     #t_1_5.titulo-segundo
       .h4 1.5 Registro de las oportunidades de mejora
     p.mb-5 Para llevar a cabo este registro se trabaja el formato experto, que sirve para elaborar el formato del Plan de Mejora con la matriz 5W y 1H y se encuentra en el 
-      a(:href="obtenerLink('/downloads/anexo_formato_experto_Plan_de_mejoramiento_integrado.xlsx')" target="_blank" type="application/pdf") anexo_formato experto_Plan de mejoramiento integrado.
+      a(:href="obtenerLink('@/downloads/anexo_formato_experto_Plan_de_mejoramiento_integrado.xlsx')" target="_blank" type="application/pdf") anexo_formato experto_Plan de mejoramiento integrado.
     figure
       img(src='@/assets/curso/t1-i16.svg', alt='Registro de oportunidades de mejora')
     figcaption.mb-5 Figura 4: Registro de oportunidades de mejora
