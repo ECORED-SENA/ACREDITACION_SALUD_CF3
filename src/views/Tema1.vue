@@ -453,6 +453,7 @@
             | Realizar las actividades del modo más eficiente posible con el fin de obtener resultados adecuados evitando costos superfluos.
     br
     br
+    br
     #t_1_7.titulo-segundo
       .h4 1.7 Herramientas para el mejoramiento continuo
     p.mb-5 Para trabajar en el mejoramiento continuo se consideran algunas herramientas que facilitan esta tarea, para lo cual se recomienda seguir el siguiente procedimiento:
