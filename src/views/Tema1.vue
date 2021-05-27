@@ -429,7 +429,7 @@
             i.fas.fa-check
             | Convertir y comparar los efectos, también en términos monetarios. 
     br
-    p.mb-5 Ahora bien, también es necesario considerar algunas barreras que pueden afectar el logro del mejoramiento. El hecho de NO lograr los resultados indica que hay una falla en el proceso, por lo que es responsabilidad de la gerencia identificar y corregir los errores debidos al proceso, como: 
+    p.mb-5 Ahora bien, la evaluación del seguimiento al plan se realiza con el objeto de: 
     .row
       .col-lg-2
         figure
