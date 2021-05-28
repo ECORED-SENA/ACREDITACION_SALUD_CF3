@@ -13,11 +13,11 @@
           .h4 Articulación de sistemas
         p.mb-4 Apropiación de conocimientos en la articulación de la aplicación de la mejora continua.
         .tarjeta.tarjeta--azul.p-3
-          .row.justify-content-around.align-items-center            
-            .col-sm.mb-3.mb-sm-0
+          .row       
+            //-- .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Descripción de la actividad didáctica.
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 
