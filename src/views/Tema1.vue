@@ -312,7 +312,8 @@
     p.mb-5 Considerando que el plan de mejora es una herramienta que plasma los cambios que se requieren realizar en la institución, a través de las decisiones estratégicas permitiendo el seguimiento y control de las acciones propuestas, es importante identificar los objetivos que se pretenden alcanzar y las tareas que se deben realizar. Y con ello precisar que el plan de mejora permite, entre otras ventajas:
     figure
       img(src='@/assets/curso/t1-i14.svg', alt='Ilustración ventajas del plan de mejoramiento')
-      figcaption Figura 1: Ventajas del plan de mejora
+      figcaption Figura 1: 
+        span.txt-normal Ventajas del plan de mejora
     br
     p.mb-5 Así, se logra la evaluación del mejoramiento como el mejor mecanismo para sostener el mejoramiento.
     p.mb-5 Ahora bien, después de probar el éxito de las acciones formuladas se recomienda estandarizar de nuevo y, así mismo, documentar las experiencias y las conclusiones obtenidas con la evaluación del mejoramiento, por ello, cabe preguntarse:
@@ -357,7 +358,8 @@
     .row.justify-content-center
       .col-xl-10
         PasosA.color-secundario.mb-5(tipo="n" :datos="datosPasosA")
-    figcaption.mb-5 Figura 2: Ciclo de mejora
+    figcaption.mb-5 Figura 2: 
+      span.txt-normal Ciclo de mejora
     br
     br
     #t_1_4.titulo-segundo
@@ -388,7 +390,8 @@
     br
     figure
       img(src='@/assets/curso/t1-i15.svg', alt='Comprensión del proceso en marcha')
-    figcaption.mb-5 Figura 3: Comprensión del proceso en marcha
+    figcaption.mb-5 Figura 3: 
+      span.txt-normal Comprensión del proceso en marcha
     br
     br
     #t_1_5.titulo-segundo
@@ -399,12 +402,15 @@
         .anexo__icono
           img(src="@/assets/template/icono-link.svg")
         .anexo__texto
-          p Anexo.  Formato experto Plan de mejoramiento integrado.
+          p 
+            span.text-bold Anexo.  
+            | Formato experto Plan de mejoramiento integrado.
     br
     br
     figure
       img(src='@/assets/curso/t1-i16.svg', alt='Registro de oportunidades de mejora')
-    figcaption.mb-5 Figura 4: Registro de oportunidades de mejora
+    figcaption.mb-5 Figura 4: 
+      span.txt-normal Registro de oportunidades de mejora
     br
     br
     #t_1_6.titulo-segundo
@@ -412,7 +418,8 @@
     p.mb-5 Una vez que se ha planeado, determinado y estructurado el plan de mejora, se desarrollan las actividades propuestas completando tareas y tiempos; de esta manera, los indicadores de seguimiento van evaluando el proceso realizado.
     figure
       img(src='@/assets/curso/t1-i17.svg', alt='Registro de oportunidades de mejora')
-    figcaption.mb-5 Figura 5: Actividades priorizadas
+    figcaption.mb-5 Figura 5: 
+      span.txt-normal Actividades priorizadas
     p.mb-5 Para priorizar las actividades, se recomienda:
     .row
       .col-lg-2
@@ -550,6 +557,7 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+.txt-normal{font-weight: 400 !important}
 .w160{width: 160px; margin: 0 auto}
 .h350{max-height: 350px}
 .tarjeta-LightBlue{background-color: #F3F9FF; border-radius: 0}
